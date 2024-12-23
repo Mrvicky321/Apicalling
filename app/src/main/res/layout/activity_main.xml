@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/todomodal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="TodoApicalling"/>
+   <Button
+       android:id="@+id/comments"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="commentsApiCalling"/>
+   <Button
+       android:id="@+id/albums"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="albumsApiCalling"/>
+   <Button
+       android:id="@+id/posts"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="postsApicalling"/>
+   <Button
+       android:id="@+id/photos"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="photosApicalling"/>
+   <Button
+       android:id="@+id/users"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="userssApicalling"/>
+
+
+
+</LinearLayout>
